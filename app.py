@@ -173,4 +173,4 @@ def update_ui(pathname):
 
 if __name__ == "__main__":
     # Note: Port 8000 matches the redirect URI in the README
-    app.run_server(debug=True, port=8000)
+    app.run(debug=True, port=8000)
